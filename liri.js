@@ -27,13 +27,16 @@ switch(action) {
         break;
     case 'spotify-this-song':
         //console.log('spotify: '+action);
-        console.log(data);
+        //console.log(data);
         spotify.search({ type: 'track', query: data }, function(err, results) {
             if ( err ) {
                 console.log('Error occurred: ' + err);
                 return;
             }
-            console.log(results[0]);
+            console.log('Song Name: '+results.tracks.items[0].name);
+            console.log('Album Name: '+results.tracks.items[0].album.name);
+            console.log('Artist Name: '+results.tracks.items[0].artists[0].name);
+            console.log('Spotify URL: '+results.tracks.items[0].artists[0].external_urls.spotify);
         });
         break;
     case 'movie-this':
