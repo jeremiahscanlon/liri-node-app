@@ -1,0 +1,25 @@
+{
+  "name": "jeremiahs-liri",
+  "version": "1.0.0",
+  "description": "LIRI - Language Interpretation and Recognition Interface App",
+  "main": "liri.js",
+  "dependencies": {
+    "request": "^2.69.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiahscanlon/liri-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiahscanlon/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/jeremiahscanlon/liri-node-app#readme"
+}
