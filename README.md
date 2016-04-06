@@ -1,7 +1,9 @@
 # liri-node-app
 LIRI - Language Interpretation and Recognition Interface
 
-Basic javascript application run in command line using node.js that calls various APIs. Application allows users to get information about: tweets from a public twitter handle, songs using the Spotify API, and movies using the OMDB API. The app can also read input from a .txt file and saves all searches to a log.txt file. NOTE: the log.txt file contained in this repo has some entries as an example to start from scratch with your install simply open it and delete the contents.
+Basic javascript application run in command line using node.js that calls various APIs. Application allows users to get information about: tweets from a public twitter handle, songs using the Spotify API, and movies using the OMDB API. The app can also read input from a .txt file and saves all searches to a log.txt file.
+
+NOTE: the log.txt file contained in this repo has some entries as an example to start from scratch with your install simply open it and delete the contents.
  
 ## Instructions to run locally 
 
