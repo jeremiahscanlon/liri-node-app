@@ -5,14 +5,20 @@ Basic javascript application run in command line using node.js that calls variou
  
 ## Instructions to run locally 
 
-1) Clone repository and download npm packages 
+1) Clone repository 
 
 ```
 git clone https://github.com/jeremiahscanlon/liri-node-app.git
+```
+
+2) Navigate to newly installed folder and download npm packages
+
+```
+cd *path*/liri-node-app/
 npm install
 ```
 
-2) Run liri.js by using node and passing in an *action* and *argument*
+3) Run liri.js by using node and passing in an *action* and *argument*
 
 ````
 node liri.js *action* *argument*
