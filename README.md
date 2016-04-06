@@ -24,24 +24,24 @@ In order for the app to run properly submit the *argument* as a string.
 
 ## Availalble Actions
 
-1) **my-tweets** - pass in a public twitter handle as the *argument* to get the most recent 20 tweets by that handle
+1) **my-tweets** - pass in a public twitter handle as the *argument* to get the most recent 20 tweets by that handle.
 ````
 node liri.js my-tweets 'jeremiahscanlon'
 ````
 
-2) **spotify-this-song** - pass in a public twitter handle as the *argument* to get the most recent 20 tweets by that handle
+2) **spotify-this-song** - pass in a song title as the *argument* to get the artist, song name, spotify url, and album name for the first song response from spotify api.
 
 ````
 node liri.js spotify-this-song 'dancing in the dark'
 ````
 
-3) **movie-this** - pass in a public twitter handle as the *argument* to get the most recent 20 tweets by that handle
+3) **movie-this** - pass in a movie title as the *argument* to get the Title, Year, IMDB Rating, Country, Language, Plot, Actors, Rotten Tomatoes Rating, Rotton Tomatoes UrL for the first movie response from the OMDB api.
 
 ````
 node liri.js movie-this 'the matrix'
 ````
 
-4) **do-what-it-says** - pass in the name of a text file as the *argument* to get a new *action* *argument* combo from that file
+4) **do-what-it-says** - pass in the name of a text file (located in the same direcotry) as the *argument* to pull a new *action* *argument* combo from that file.
 
 ````
 node liri.js do-what-it-says 'random.txt'
