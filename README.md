@@ -12,7 +12,7 @@ git clone https://github.com/jeremiahscanlon/liri-node-app.git
 npm install
 ```
 
-2) Run liri.js by using node and passing in an action and argument
+2) Run liri.js by using node and passing in an *action* and *argument*
 
 ````
 node liri.js *action* *argument*
