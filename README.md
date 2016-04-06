@@ -18,7 +18,7 @@ npm install
 node liri.js *action* *argument*
 ````
 
-## Argument formats
+## Argument Formats
 
 In order for the app to run properly submit the *argument* as a string.
 
